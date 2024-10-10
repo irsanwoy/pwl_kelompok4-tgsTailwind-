@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      primary: '#buat warna utama',
+        secondary: '#warna kedua',
+        accent: '#warna ketiga',
+    },
   },
   plugins: [],
 }
