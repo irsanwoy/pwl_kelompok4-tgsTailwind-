@@ -107,7 +107,11 @@
 }
 
 /*
+<<<<<<< HEAD
 ! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+=======
+! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
+>>>>>>> origin/main
 */
 
 /*
@@ -550,7 +554,11 @@ video {
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
+<<<<<<< HEAD
 [hidden]:where(:not([hidden="until-found"])) {
+=======
+[hidden] {
+>>>>>>> origin/main
   display: none;
 }
 

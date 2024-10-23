@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "webprofile",
   "version": "1.0.0",
   "main": "tailwind.config.js",
@@ -11,5 +12,9 @@
   "description": "",
   "dependencies": {
     "tailwindcss": "^3.4.14"
+=======
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+>>>>>>> origin/main
   }
 }
