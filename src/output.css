@@ -107,11 +107,7 @@
 }
 
 /*
-<<<<<<< HEAD
 ! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
-=======
-! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
->>>>>>> origin/main
 */
 
 /*
@@ -554,11 +550,7 @@ video {
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
-<<<<<<< HEAD
 [hidden]:where(:not([hidden="until-found"])) {
-=======
-[hidden] {
->>>>>>> origin/main
   display: none;
 }
 
@@ -571,6 +563,7 @@ video {
   font-weight: 700;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
