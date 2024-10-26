@@ -7,7 +7,7 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body class="flex items-center justify-center min-h-screen font-sans bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e]">
-  <div class="main w-[350px] h-[500px] bg-cover bg-center rounded-lg shadow-lg overflow-hidden" style="background-image: url('1.jpg');">
+  <div class="main w-[350px] h-[500px] bg-cover bg-center rounded-lg shadow-lg overflow-hidden fade-in-scale" style="background-image: url('1.jpg');">
     <div class="login bg-white rounded-[60%_10%] shadow-lg h-[460px] flex flex-col items-center justify-center">
       <form class="text-center px-4">
         <h2 class="text-[#573b8a] text-[1.8em] font-bold mb-6">Login</h2>
@@ -20,5 +20,15 @@
       </form>
     </div>
   </div>
+
+  <script src="script.js">
+    // document.querySelector('a[href="register.html"]').addEventListener('click', function (e) {
+    //   e.preventDefault();
+    //   document.querySelector('.login').classList.add('fade-out-scale');
+    //   setTimeout(() => {
+    //     window.location.href = 'register.html';
+    //   }, 500); // Waktu sesuai durasi animasi
+    // });
+  </script>
 </body>
 </html>

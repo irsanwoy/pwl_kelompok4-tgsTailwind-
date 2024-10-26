@@ -1,20 +1,36 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* file Tailwind CSS utama */
+/* input.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-  #chk:checked ~ .login {
-    @apply -translate-y-[500px];
+  @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
-  #chk:checked ~ .login label {
-    @apply scale-100;
+
+  @keyframes fadeOutScale {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
   }
-  #chk:checked ~ .signup label {
-    @apply scale-[0.6];
+
+  .fade-in-scale {
+    animation: fadeInScale 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .fade-out-scale {
+    animation: fadeOutScale 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   }
 }

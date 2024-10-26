@@ -7,6 +7,10 @@ module.exports = {
         secondary: '#warna kedua',
         accent: '#warna ketiga',
     },
+    safelist: [
+      'fade-in-scale',
+      'fade-out-scale',
+    ],
   },
   plugins: [],
 }
