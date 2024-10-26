@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* file Tailwind CSS utama */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #chk:checked ~ .login {
+    @apply -translate-y-[500px];
+  }
+  #chk:checked ~ .login label {
+    @apply scale-100;
+  }
+  #chk:checked ~ .signup label {
+    @apply scale-[0.6];
+  }
+}
