@@ -3,9 +3,16 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      primary: '#buat warna utama',
-        secondary: '#warna kedua',
-        accent: '#warna ketiga',
+      colors: { // letakkan warna di dalam 'colors'
+        hijauTua: '#1e5631',
+        hijauSedang: '#a4de02',
+        hijauMuda: '#68bb59',
+        hijauLatar: '#E8F5E9',
+        hijauInput: '#A7DBD8',
+        hijauUtama: '#4CAF50',
+        hijauSekunder: '#66BB6A',
+        hijauTeks: '#2E7D32',
+      },
     },
     safelist: [
       'fade-in-scale',
@@ -14,4 +21,3 @@ module.exports = {
   },
   plugins: [],
 }
-
