@@ -20,3 +20,6 @@ function addFadeOutAnimation(linkSelector, elementSelector, targetUrl) {
     }
   });
   
+  document.addEventListener("DOMContentLoaded", () => {
+    console.log("Deliveat Profile Page Loaded!");
+});

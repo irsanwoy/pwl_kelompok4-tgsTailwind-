@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin - Delive Eat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full m-0 font-sans flex">
+    <div class="w-64 bg-gray-800 text-white p-5 flex flex-col justify-between h-screen">
+        <h2 class="text-center mb-5">Deliveat Admin</h2>
+        <ul class="flex-grow list-none p-0">
+            <li class="mb-4"><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Dashboard</a></li>
+            <li class="mb-4"><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Pesanan</a></li>
+            <li class="mb-4"><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Menu Makanan</a></li>
+            <li class="mb-4"><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Pengguna</a></li>
+            <li class="mb-4"><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Laporan</a></li>
+            <li class="mb-4"><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Pengaturan</a></li>
+            <li><a href="#" class="block text-white no-underline py-2 hover:underline hover:bg-white hover:bg-opacity-10">Keluar</a></li>
+        </ul>
+    </div>
+    <div class="flex-grow p-5">
+        <header class="bg-gray-200 p-3 border-b border-gray-300">
+            <h1>Dashboard</h1>
+        </header>
+        <section class="flex justify-between mt-5 mb-5">
+            <div class="bg-green-600 text-white p-5 rounded-md flex-1 mr-3">
+                <h3>Total Pesanan</h3>
+                <p>150</p>
+            </div>
+            <div class="bg-green-500 text-white p-5 rounded-md flex-1 mr-3">
+                <h3>Total Pengguna</h3>
+                <p>300</p>
+            </div>
+            <div class="bg-green-600 text-white p-5 rounded-md flex-1">
+                <h3>Total Menu</h3>
+                <p>50</p>
+            </div>
+        </section>
+        <section class="mt-5">
+            <h2>Pesanan Terbaru</h2>
+            <table class="w-full border-collapse mt-3">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 p-3 text-left">ID Pesanan</th>
+                        <th class="border border-gray-300 p-3 text-left">Nama Pengguna</th>
+                        <th class="border border-gray-300 p-3 text-left">Status</th>
+                        <th class="border border-gray-300 p-3 text-left">Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 p-3">#001</td>
+                        <td class="border border-gray-300 p-3">Irsan</td>
+                        <td class="border border-gray-300 p-3">Diproses</td>
+                        <td class="border border-gray-300 p-3">2024-10-25</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 p-3">#002</td>
+                        <td class="border border-gray-300 p-3">Rijki</td>
+                        <td class="border border-gray-300 p-3">Siap Dikirim</td>
+                        <td class="border border-gray-300 p-3">2024-10-25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
